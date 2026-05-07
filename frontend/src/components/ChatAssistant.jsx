@@ -22,7 +22,7 @@ function ChatAssistant() {
     setLoading(true);
 
     try {
-      const response = await axios.post("https://ai-crm-hcp-module-r4l7.onrender.com", {
+      const response = await axios.post("https://ai-crm-hcp-module-r4l7.onrender.com/chat", {
         message,
       });
 
